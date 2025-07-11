@@ -1,0 +1,11 @@
+[package]
+name = "renderer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+window.workspace = true
+app_base.workspace = true
+base_derive.workspace = true
+log.workspace = true
+wgpu = "25.0.2"

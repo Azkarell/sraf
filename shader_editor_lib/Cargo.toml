@@ -1,0 +1,11 @@
+[package]
+name = "shader_editor_lib"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+naga = { version = "25.0.1", features = ["wgsl-in", "wgsl-out"] }
+app_base.workspace = true
+log.workspace = true
+renderer.workspace = true

@@ -1,0 +1,10 @@
+[package]
+name = "test_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+window.workspace = true
+app_base.workspace = true
+log.workspace = true
+renderer.workspace = true

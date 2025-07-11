@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = [ "app_base", "base_derive", "renderer", "shader_editor", "shader_editor_lib", "test_app", "ui","window"]
+
+
+[workspace.dependencies]
+app_base = { path = "app_base" }
+base_derive = { path = "base_derive" }
+renderer = { path = "renderer" }
+window = { path = "window" }
+shader_editor_lib = { path = "shader_editor_lib" }
+log = "0.4.27"
+tokio = { version = "1.45.1", features = ["rt-multi-thread", "sync"] }
+dotenvy = "0.15.7"
+nalgebra = "0.33"
